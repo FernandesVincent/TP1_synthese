@@ -15,7 +15,6 @@ int main(){
 
     welcome();
     prompt();
-    //print_status(status);
 
 
     while(1){
@@ -29,7 +28,7 @@ int main(){
             break;
         }
 
-        //print_status(status);
+        print_status(status);
 
     }
 }

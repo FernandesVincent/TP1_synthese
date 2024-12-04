@@ -13,13 +13,12 @@
 #define MSG_SIGN "[signal:%d]"
 
 
-
 void welcome();
 void prompt();
 void exit_Q();
 void read_message(char *buffer);
 void REPL(int *status, char *command);
-void write_message(char *message, int val);
+void write_message(const char *message, int val);
 void print_status(int status);
 
 #endif
