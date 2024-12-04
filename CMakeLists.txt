@@ -10,4 +10,5 @@ add_executable(TP1_synthese main.c
         Q3.c
         Q4.c
         Q5.c
+        Q6.c
 )

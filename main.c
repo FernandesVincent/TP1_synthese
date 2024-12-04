@@ -8,8 +8,9 @@
 #include <time.h>
 
 char buffer[128];
-char command[BUFFER_SIZE] = {0};
 int status = 0;
+char* argv[BUFFER_SIZE];
+
 
 int main(){
 
@@ -20,9 +21,12 @@ int main(){
     while(1){
 
         read_message(buffer);
+        split_string(buffer, argv);
+
 
         start_timer();
         REPL(&status, buffer);
+        complex_command(argv, &status);
         end_timer();
         get_time();
 

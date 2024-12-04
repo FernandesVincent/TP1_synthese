@@ -27,4 +27,7 @@ void print_time(int time);
 void start_timer();
 void end_timer();
 int get_time();
+void complex_command(char **argv, int *status);
+void split_string(char *buffer, char **argv);
+
 #endif
