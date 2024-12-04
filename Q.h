@@ -12,6 +12,9 @@
 #define MSG_EXIT "[exit:%d]"
 #define MSG_SIGN "[signal:%d]"
 
+#define TIME_MSG "[time:%d in ms]"
+
+
 
 void welcome();
 void prompt();
@@ -20,5 +23,8 @@ void read_message(char *buffer);
 void REPL(int *status, char *command);
 void write_message(const char *message, int val);
 void print_status(int status);
-
+void print_time(int time);
+void start_timer();
+void end_timer();
+int get_time();
 #endif
