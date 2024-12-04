@@ -29,5 +29,6 @@ void end_timer();
 int get_time();
 void complex_command(char **argv, int *status);
 void split_string(char *buffer, char **argv);
+int redirect(int argc, char **argv, int *index_redirect);
 
 #endif

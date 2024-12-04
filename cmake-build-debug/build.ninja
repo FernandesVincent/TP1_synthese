@@ -91,6 +91,12 @@ build CMakeFiles/TP1_synthese.dir/Q6.c.o: C_COMPILER__TP1_synthese_unscanned_Deb
   OBJECT_DIR = CMakeFiles/TP1_synthese.dir
   OBJECT_FILE_DIR = CMakeFiles/TP1_synthese.dir
 
+build CMakeFiles/TP1_synthese.dir/Q7.c.o: C_COMPILER__TP1_synthese_unscanned_Debug /Users/fernandesvincent/CLionProjects/TP1_synthese/Q7.c || cmake_object_order_depends_target_TP1_synthese
+  DEP_FILE = CMakeFiles/TP1_synthese.dir/Q7.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/TP1_synthese.dir
+  OBJECT_FILE_DIR = CMakeFiles/TP1_synthese.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target TP1_synthese
@@ -99,7 +105,7 @@ build CMakeFiles/TP1_synthese.dir/Q6.c.o: C_COMPILER__TP1_synthese_unscanned_Deb
 #############################################
 # Link the executable TP1_synthese
 
-build TP1_synthese: C_EXECUTABLE_LINKER__TP1_synthese_Debug CMakeFiles/TP1_synthese.dir/main.c.o CMakeFiles/TP1_synthese.dir/Q2.c.o CMakeFiles/TP1_synthese.dir/Q1.c.o CMakeFiles/TP1_synthese.dir/Q3.c.o CMakeFiles/TP1_synthese.dir/Q4.c.o CMakeFiles/TP1_synthese.dir/Q5.c.o CMakeFiles/TP1_synthese.dir/Q6.c.o
+build TP1_synthese: C_EXECUTABLE_LINKER__TP1_synthese_Debug CMakeFiles/TP1_synthese.dir/main.c.o CMakeFiles/TP1_synthese.dir/Q2.c.o CMakeFiles/TP1_synthese.dir/Q1.c.o CMakeFiles/TP1_synthese.dir/Q3.c.o CMakeFiles/TP1_synthese.dir/Q4.c.o CMakeFiles/TP1_synthese.dir/Q5.c.o CMakeFiles/TP1_synthese.dir/Q6.c.o CMakeFiles/TP1_synthese.dir/Q7.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/TP1_synthese.dir
   POST_BUILD = :

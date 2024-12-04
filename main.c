@@ -10,6 +10,7 @@
 char buffer[128];
 int status = 0;
 char* argv[BUFFER_SIZE];
+int index_redirect = 1;
 
 
 int main(){
@@ -22,7 +23,7 @@ int main(){
 
         read_message(buffer);
         split_string(buffer, argv);
-
+        redirect(status, argv, &index_redirect);
 
         start_timer();
         REPL(&status, buffer);
