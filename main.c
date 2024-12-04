@@ -15,10 +15,10 @@ char* argv[BUFFER_SIZE];
 int main(){
 
     welcome();
-    prompt();
-
 
     while(1){
+        prompt();
+
 
         read_message(buffer);
         split_string(buffer, argv);
@@ -29,15 +29,12 @@ int main(){
         complex_command(argv, &status);
         end_timer();
         get_time();
+        print_status(status);
 
 
         if(strcmp(buffer, "exit") == 0) {
             exit_Q();
             break;
         }
-
-        print_status(status);
-
     }
-
 }

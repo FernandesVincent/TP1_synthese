@@ -9,8 +9,8 @@
 #define EXIT_MESSAGE "Bye Bye"
 #define BUFFER_SIZE 1024
 
-#define MSG_EXIT "[exit:%d]"
-#define MSG_SIGN "[signal:%d]"
+#define MSG_EXIT "[exit:%d] "
+#define MSG_SIGN "[signal:%d] "
 
 #define TIME_MSG "[time:%d in ms]"
 
